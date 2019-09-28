@@ -1,5 +1,6 @@
 # Tarea-3
 Guía de ejercicios en clase
+
 #Ejercicio 1
 Luego de ingresar el comando "listaDeNumeros[5]" lo que nos arrojaba la posición numero 5 de nuestra lista de numeros, dando como resultado el numero 1, reemplazamos el número 5 por el 0, es decir le damos la orden de buscar la posición 0, dando como resultado "list()". ¿Por qué nos dio este resultado? esto se debe a que a la posición 0 no se le atribuye ningún valor de la lista previamente creada.
 Al buscar "listaDeNumeros[-5]" lo que R nos arroja es una nueva lista, esta lista es igual excepto por una pequeña diferencia, el numero 1, ubicado en la posición 5 de la lista no esta, esto quiere decir que cuando reemplazamos el 5 por un numero negativo llamamos una lista que suprime la posición que posimos en negativo, como en este caso que suprimio la quinta posición.
